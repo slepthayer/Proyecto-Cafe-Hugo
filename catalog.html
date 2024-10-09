@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo • Café Hugo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="catalog.html" class="selected">Catálogo</a></li>
+                <li><a href="homepage.html" class="logo"><img src="img/Logo.png" alt="Logo de Café Hugo"></a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="cart-container">
+            <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+    <main>
+        <h1>Catálogo de Cafés</h1>
+        <p>Bienvenido a nuestro catálogo, donde podrás explorar una deliciosa variedad de cafés según su tueste y tamaño. Escoge tu favorito y agrégalo al carrito.</p>
+        
+        <div class="section-caja">
+            <h2>Cafés de 250 g</h2>
+            <div class="box-container">
+                <div class="box" data-name="Tueste Oscuro" data-price="3500" data-img="img/250-oscuro.png">
+                    <div class="box-front">
+                        <img src="img/250-oscuro.png" alt="Café Tueste Oscuro, 250 g">
+                        <h3>Tueste Oscuro</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡3500</p>
+                        <br>
+                        <p>Intenso y robusto, con notas a chocolate amargo y nueces.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+                <div class="box" data-name="Tueste Medio" data-price="3200" data-img="img/250-medio.png">
+                    <div class="box-front">
+                        <img src="img/250-medio.png" alt="Café Tueste Medio, 250 g">
+                        <h3>Tueste Medio</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡3200</p>
+                        <br>
+                        <p>Equilibrado y floral, con notas a frutas del bosque y cítricos.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+                <div class="box" data-name="Tueste Dorado" data-price="3000" data-img="img/250-dorado.png">
+                    <div class="box-front">
+                        <img src="img/250-dorado.png" alt="Café Tueste Dorado, 250 g">
+                        <h3>Tueste Dorado</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡3000</p>
+                        <br>
+                        <p>Suave y delicado, con notas a caramelo y avellana.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-caja">
+            <h2>Cafés de 500 g</h2>
+            <div class="box-container">
+                <div class="box" data-name="Tueste Oscuro" data-price="7000" data-img="img/500-oscuro.png">
+                    <div class="box-front">
+                        <img src="img/500-oscuro.png" alt="Café Tueste Oscuro, 500 g">
+                        <h3>Tueste Oscuro</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡7000</p>
+                        <br>
+                        <p>Intenso y robusto, con notas a chocolate amargo y nueces.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+                <div class="box" data-name="Tueste Medio" data-price="6400" data-img="img/500-medio.png">
+                    <div class="box-front">
+                        <img src="img/500-medio.png" alt="Café Tueste Medio, 500 g">
+                        <h3>Tueste Medio</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡6400</p>
+                        <br>
+                        <p>Equilibrado y floral, con notas a frutas del bosque y cítricos.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+                <div class="box" data-name="Tueste Dorado" data-price="6000" data-img="img/500-dorado.png">
+                    <div class="box-front">
+                        <img src="img/500-dorado.png" alt="Café Tueste Dorado, 500 g">
+                        <h3>Tueste Dorado</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡6000</p>
+                        <br>
+                        <p>Suave y delicado, con notas a caramelo y avellana.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-caja">
+            <h2>Cafés de 1000 g</h2>
+            <div class="box-container">
+                <div class="box" data-name="Tueste Oscuro" data-price="13000" data-img="img/1000-oscuro.png">
+                    <div class="box-front">
+                        <img src="img/1000-oscuro.png" alt="Café Tueste Oscuro, 1000 g">
+                        <h3>Tueste Oscuro</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡13000</p>
+                        <br>
+                        <p>Intenso y robusto, con notas a chocolate amargo y nueces.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+                <div class="box" data-name="Tueste Medio" data-price="12000" data-img="img/1000-medio.png">
+                    <div class="box-front">
+                        <img src="img/1000-medio.png" alt="Café Tueste Medio, 1000 g">
+                        <h3>Tueste Medio</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡12000</p>
+                        <br>
+                        <p>Equilibrado y floral, con notas a frutas del bosque y cítricos.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+                <div class="box" data-name="Tueste Dorado" data-price="11000" data-img="img/1000-dorado.png">
+                    <div class="box-front">
+                        <img src="img/1000-dorado.png" alt="Café Tueste Dorado, 1000 g">
+                        <h3>Tueste Dorado</h3>
+                    </div>
+                    <div class="box-back">
+                        <p>₡11000</p>
+                        <br>
+                        <p>Suave y delicado, con notas a caramelo y avellana.</p>
+                        <br>
+                        <button class="add-to-cart">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/catalogo.js"></script>
+</body>
+</html>
